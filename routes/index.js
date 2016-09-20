@@ -21,6 +21,10 @@ router.get('/collection/ete', function(req, res, next) {
   res.render('pages/collection', { title: 'Collection', saison: 'ete'});
 });
 
+router.get('/collection/ceremonie', function(req, res, next) {
+  res.render('pages/collection', { title: 'Collection', saison: 'ceremonie'});
+});
+
 router.get('/histoire', function(req, res, next) {
   res.render('pages/histoire', { title: 'Histoire' });
 });
