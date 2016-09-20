@@ -10,7 +10,7 @@ router.get('/contact', function(req, res, next) {
 });
 
 router.get('/collection', function(req, res, next) {
-  res.render('pages/collection', { title: 'Collection'});
+  res.render('pages/collection', { title: 'Collection', saison: 'index'});
 });
 
 router.get('/collection/hiver', function(req, res, next) {
